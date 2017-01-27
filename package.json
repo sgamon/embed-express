@@ -1,0 +1,21 @@
+{
+  "name": "embed-express",
+  "version": "1.0.0",
+  "description": "embed a minimal express server in the current directory",
+  "main": "index.js",
+  "bin": {
+    "embed-express": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Scott Gamon <sgamon@yahoo.com> (http://gamon.org)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4",
+    "open": "~0"
+  }
+}
