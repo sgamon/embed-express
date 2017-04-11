@@ -1,5 +1,7 @@
 # embed-express
 
+[![npm package](https://nodei.co/npm/embed-express.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/embed-express/)
+
 Embed a very minimal express server in the current folder.
 
   
