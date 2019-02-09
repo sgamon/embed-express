@@ -19,7 +19,7 @@
   "author": "Scott Gamon <sgamon@yahoo.com> (http://gamon.org)",
   "license": "MIT",
   "dependencies": {
-    "express": "~4",
+    "express": ">=4.5.0",
     "open": "~0"
   }
 }
