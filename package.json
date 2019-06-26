@@ -1,6 +1,6 @@
 {
   "name": "embed-express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "embed a minimal express server in the current directory",
   "repository" :
   { "type" : "git"
@@ -20,6 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "express": ">=4.5.0",
-    "open": "~0"
+    "open": ">=6.0.0"
   }
 }
