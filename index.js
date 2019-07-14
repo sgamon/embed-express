@@ -2,7 +2,7 @@
 
 'use strict';
 
-let child_process = require('child_process')
+let child_process = require('child_process');
 let fs = require('fs');
 
 if (!fs.existsSync('./package.json')) {
@@ -32,7 +32,7 @@ let express = require('express');
 let open = require('open');
 
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 express()
   .set('port', PORT)
@@ -50,8 +50,8 @@ fs.writeFileSync('./server.js', serverjs);
 if (!fs.existsSync('./index.html')) {
   let html = `
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <title>Hello World!</title>
 </head>
