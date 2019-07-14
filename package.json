@@ -1,10 +1,10 @@
 {
   "name": "embed-express",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "embed a minimal express server in the current directory",
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/sgamon/embed-express"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgamon/embed-express"
   },
   "main": "index.js",
   "bin": {
