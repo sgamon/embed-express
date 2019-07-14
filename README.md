@@ -11,20 +11,17 @@ You started a little front-end project by creating a folder and putting files
 in it... then you thought "It would be handy to have a little web server here,
 to service ajax requests." At this point, your fingers fly to the console:
 
-    npm install -g embed-express
-    embed-express
+    npx embed-express
     
 Voila! 
 
 
-## Install
+## Installation notes
 
-    npm install -g embed-express
+Start in a folder that needs an express.
 
+## Configuration
 
-## Run
-
-Start in a folder that needs an express. Then:
-
-    embed-express
+By default, the express server runs on port 3001. 
+You can override that by setting the PORT evironment variable.
 
